@@ -45,7 +45,7 @@ jobs:
           context: Python/  # Python目录下
           push: true
           tags: |
-            ghcr.io/${{ env.LOWERCASE_OWNER }}/nows-hf:latest
+            ghcr.io/${{ env.LOWERCASE_OWNER }}/hfs:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
